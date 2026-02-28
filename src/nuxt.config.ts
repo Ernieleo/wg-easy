@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  compatibilityDate: '2025-02-04',
+  compatibilityDate: '2026-02-06',
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/i18n',
@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     'radix-vue/nuxt',
     '@vueuse/nuxt',
     '@nuxt/eslint',
+    '@nuxt/test-utils/module',
   ],
   colorMode: {
     preference: 'system',
@@ -108,6 +109,26 @@ export default defineNuxtConfig({
         code: 'id',
         language: 'id-ID',
         name: 'Bahasa Indonesia',
+      },
+      {
+        code: 'nl',
+        language: 'nl-NL',
+        name: 'Nederlands',
+      },
+      {
+        code: 'nb',
+        language: 'nb-NO',
+        name: 'Norsk bokmål',
+      },
+      {
+        code: 'bg',
+        language: 'bg-BG',
+        name: 'Български',
+      },
+      {
+        code: 'gl',
+        language: 'gl-ES',
+        name: 'Galego',
       },
     ],
     defaultLocale: 'en',
