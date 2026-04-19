@@ -150,6 +150,9 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
+    experimental: {
+      openAPI: true,
+    },
     esbuild: {
       options: {
         // to support big int
